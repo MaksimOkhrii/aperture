@@ -8,13 +8,29 @@
     justify-content: space-between;
     margin: auto;
 }
+.flex_right_centr_position{
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin: auto;
+    min-height: 600px;
+    position: relative;
+}
+.conteiner_location{
+    width: 300px;
+    margin-right: 60px;
+}
+.location_ul{
+    position: absolute;
+    bottom: 41px;
+    display: flex;
+    justify-content: space-between;
+    right: 41px;
+}
 header{
     background-color:  #181818;
     margin: auto;
     padding: 24px 20px 24px 32px;
-    position: absolute;
-    z-index: 2;
-    width: 100%;
 }
 header div{
     max-width: 1200px;
@@ -99,13 +115,7 @@ header li:last-of-type a{
     list-style: none;
 
 }
-.iceland ul{
-    position: absolute;
-    bottom: 41px;
-    display: flex;
-    justify-content: space-between;
-    right: 41px;
-}
+
 .iceland ul li p{
     margin-left: 6px;
     font-family: 'Poppins';
@@ -222,7 +232,117 @@ header li:last-of-type a{
     margin-right: 6px;
 }
 
+.japan{
+    background-image:url("../img/japan_background.jpg");
+    background-size: cover;
+}
+.location_h4{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-align: left;
+color: #FFFFFF;
+}
+.location_p{
+    font-family: 'Poppins';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #C0C0C0;
+}
 
+.japan .conteiner_location ul li{
+    list-style: none;
+    margin-left: 16px;
+    display: flex;
+}
+.japan .conteiner_location ul li p{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+color: #FFFFFF;
+    margin-left: 5px;
+}
+.costa_rica{
+    background-image: url("../img/costa_rica_background.jpg");
+    background-size: cover;
+}
+.costa_rica ul li{
+    list-style: none;
+    margin-left: 16px;
+    display: flex;
+}
+.costa_rica ul li p{
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+.past_clients{
+    background: #000000;
+padding: 120px 0 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.conteiner_clients{
+    max-width: 1200px;
+    width: 100%;
+}
+.past_clients ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.past_clients h2{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+color: #FFFFFF;
+}
+.past_clients p{
+    font-family: 'Poppins';
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+color: #C0C0C0;
+    margin: 15px 0 42px;
+}
+.nepal{
+    background-image: url("../img/nepal_background.jpg");
+    background-size: cover;
+}
+.nepal ul li{
+    list-style: none;
+    margin-left: 16px;
+    display: flex;
+}
+.nepal ul li p {
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
 footer{
     padding: 100px 0;
     background: #000000;
@@ -232,6 +352,7 @@ footer{
     justify-content: space-between;
     max-width: 1168px;
     margin: auto;
+
 }
 .right_start_footer{
     display: flex;
@@ -334,3 +455,4 @@ footer form{
     right: 6px;
     border-radius: 11px;
 }
+
