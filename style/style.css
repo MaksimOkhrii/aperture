@@ -180,7 +180,7 @@ header li:last-of-type a{
     position: absolute;
     width: 100%;
     height: 100%;
-    padding: 40px;
+    padding: 0 30px 30px;
     box-sizing: border-box;
     display: flex;
     align-content: end;
@@ -230,6 +230,62 @@ header li:last-of-type a{
     background-color:#000000;
     margin: 5px 0 5px 4px;
     margin-right: 6px;
+}
+.ui-widget-content{
+    background-color: #000000;
+    border: none;
+}
+.ui-accordion .ui-accordion-content{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    padding: 0;
+}
+.ui-accordion .ui-accordion-header{
+    background-color: transparent;
+    border: none;
+    text-align: center;
+}
+.ui-accordion .ui-accordion-header.ui-state-hover .ui-icon{
+    background-image: none;
+}
+@keyframes slide_left {
+    0%{
+        left: -15px;
+    }
+    100%{
+        left: 0px;
+    }
+}
+.ui-state-active .ui-icon, .ui-button:active .ui-icon, .ui-icon, .ui-widget-content .ui-icon{
+    background-image: none;
+    background-position: 0;
+    text-indent: 0;
+    margin: 0;
+    position: relative;
+    top: 0;
+    left: -10px;
+    display: inline-block;
+    transform: rotate(90deg);
+    animation: slide_left 1s infinite;
+}
+.ui-icon:after{
+    font-weight: 900;
+    font-family: "Font Awesome 6 Free";
+    content: "\f078";
+}
+@keyframes slide {
+    0%{
+        top: -15px;
+    }
+    100%{
+        top: 0px;
+    }
+}
+.ui-accordion-header.ui-state-active .ui-icon{
+    transform: rotate(0deg);
+    top: -5px;
+    animation: slide 1s infinite;
 }
 
 .japan{
@@ -292,17 +348,31 @@ color: #FFFFFF;
 .past_clients{
     background: #000000;
 padding: 120px 0 100px;
-    margin: auto;
     display: flex;
     justify-content: center;
 }
 .conteiner_clients{
-    max-width: 1200px;
-    width: 100%;
+   max-width: 1200px;
 }
-.past_clients ul{
+.past_clients_ul{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.past_clients ul img{
+max-width: 128px;
+    display: inline-block;
+}
+.owl-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+}
+
+.owl-carousel .owl-item img{
+    display: inline-block;
+}
+.owl-carousel.owl-drag .owl-item{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 .past_clients h2{
