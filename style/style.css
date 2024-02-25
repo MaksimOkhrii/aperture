@@ -32,6 +32,22 @@
     justify-content: space-between;
     right: 41px;
 }
+.location_ul li{
+    display: flex;
+    margin-left: 16px;
+    list-style: none;
+
+}
+.location_ul li p{
+    margin-left: 6px;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
 header{
     background-color:  #181818;
     margin: auto;
@@ -79,25 +95,7 @@ header{
     text-align: center;
     color: #C0C0C0;
 }
-.iceland ul li{
-    display: flex;
-    margin-left: 16px;
-    list-style: none;
-
-}
-
-.iceland ul li p{
-    margin-left: 6px;
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-}
 .we_do{
-
     padding: 120px 0 100px 0;
     background: #000000;
     display: flex;
@@ -279,30 +277,6 @@ color: #FFFFFF;
     text-align: left;
 color: #C0C0C0;
 }
-
-.japan .conteiner_location ul li{
-    list-style: none;
-    margin-left: 16px;
-    display: flex;
-}
-.japan .conteiner_location ul li p{
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: left;
-color: #FFFFFF;
-    margin-left: 5px;
-}
-
-
-
-
-
-
-
-
 .the_gear_cage{
     background: #000000;
 padding: 113px 0;
@@ -375,48 +349,9 @@ color: #FFFFFF;
     background-image: url("../img/the_Gear_cage.jpg");
     background-size: cover;
 }
-.the_gear_cage ul li{
-    list-style: none;
-    margin-left: 16px;
-    display: flex;
-}
-.the_gear_cage ul li p{
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 5px;
-}
-
-
-
-
-
-
-
-
-
 .costa_rica{
     background-image: url("../img/costa_rica_background.jpg");
     background-size: cover;
-}
-.costa_rica ul li{
-    list-style: none;
-    margin-left: 16px;
-    display: flex;
-}
-.costa_rica ul li p{
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 5px;
 }
 .past_clients{
     background: #000000;
@@ -499,21 +434,6 @@ color: #C0C0C0;
 .nepal{
     background-image: url("../img/nepal_background.jpg");
     background-size: cover;
-}
-.nepal ul li{
-    list-style: none;
-    margin-left: 16px;
-    display: flex;
-}
-.nepal ul li p {
-    font-family: 'Poppins';
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 12px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #FFFFFF;
-    margin-left: 5px;
 }
 footer{
     padding: 100px 0;
