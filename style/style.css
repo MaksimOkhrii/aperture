@@ -359,6 +359,7 @@ padding: 120px 0 100px;
 .past_clients_ul{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .past_clients ul img{
 max-width: 128px;
@@ -376,6 +377,34 @@ max-width: 128px;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+.owl-carousel button.owl-dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: white;
+    margin-left: 15px;
+    margin-top: 25px;
+}
+.owl-dots{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.owl-prev, .owl-next{
+    display: none;
+}
+.owl-dots .owl-dot.active{
+    background-color: #869791;
+
+}
+.button.owl-dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: white;
+    border-color: #FFFFFF;
+    border: 1px
 }
 .past_clients h2{
     font-family: 'Poppins';
